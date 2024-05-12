@@ -7,7 +7,7 @@ const Contact = ({ email, phone, location }) => {
   return (
     <section className="contact container" id="contact">
       <h2 className="section-title" style={{textAlign:'left'}}>Contact</h2>
-      <div className="contact-info">  {/* Custom class for styling */}
+      <div className="contact-info">
         <ul>
           <li>
             <FontAwesomeIcon icon={faEnvelope} /> &nbsp;&nbsp;{email}

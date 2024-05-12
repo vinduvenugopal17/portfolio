@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   const skills = ['JavaScript', 'React', 'Springboot', 'Java', 'MySql', 'HTML', 'CSS', 'WordPress'];
-  const email= 'vindudeepak17@gmail.com';
+  const email= 'vinduvenugopal17@gmail.com';
   const phone='226-261-2122';
   const location='Kitchener, Ontario';
   return (

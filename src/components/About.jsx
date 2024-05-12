@@ -12,9 +12,9 @@ function About() {
                 </div>
                 <div className="col-md-5">
                     <p><br></br><br></br><br></br>
-                        I am a passionate and skilled Full Stack Web Developer with over 3 years of experience.
-                        I have a strong background in HTML, CSS, Javascript, React, Java, Springboot and MySql. I am highly motivated and
-                        always eager to learn and grow.
+                        Hi, I am a highly motivated Full-Stack Web Developer with over 3 years of experience building robust and scalable web applications. 
+                        I am skilled in both front-end and back-end development, 
+                        with a strong foundation in databases. I love to work in collaborative environments and excels at turning complex technical concepts into user-friendly solutions.
                     </p>
                     <p>
                         In my free time, I enjoy reading books and listening to music.

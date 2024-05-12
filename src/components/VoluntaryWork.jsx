@@ -3,17 +3,11 @@ import React from 'react';
 function VoluntaryWork() {
   const voluntaryWork = [
     {
-      organization: 'Organization Name 1',
-      role: 'Volunteer Role',
-      description: 'A brief description of your voluntary work.',
-      dates: '20XX - 20XX',
+      organization: 'Lackner Woods Public School',
+      role: 'Fund-Raising Volunteer',
+      dates: 'August 2022',
     },
-    {
-      organization: 'Organization Name 2',
-      role: 'Volunteer Role',
-      description: 'Another description of your voluntary work.',
-      dates: '20XX - 20XX',
-    },
+   
   ];
 
   return (
@@ -21,7 +15,7 @@ function VoluntaryWork() {
       <h2 className="section-title">Voluntary Work</h2>
       <div className="row">
         {voluntaryWork.map((work) => (
-          <div className="col-md-6 mb-4" key={work.organization}>
+          <div className="col-md-12 mb-4" key={work.organization}>
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">{work.organization}</h5>

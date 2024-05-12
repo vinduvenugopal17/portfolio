@@ -1,16 +1,20 @@
 import React from 'react';
+import javacertificate from './assets/java-cerificate.png'; 
+import coescaler from './assets/COE-SCALER.png'; 
 
 function Certifications() {
   const certifications = [
     {
-      name: 'Certification Name 1',
-      issuer: 'Issuing Institution',
-      date: '20XX',
+      name: 'Java Full Stack Development Plus Course',
+      issuer: 'Techno Canada Centre of Excellence',
+      date: 'December 17,2023',
+      image: javacertificate
     },
     {
-      name: 'Certification Name 2',
-      issuer: 'Issuing Institution',
-      date: '20XX',
+      name: 'JavaScript Course with certification : Unlocking the Power of javaScript',
+      issuer: 'Scaler',
+      date: 'March 2024',
+      image: coescaler
     },
   ];
 
@@ -21,6 +25,7 @@ function Certifications() {
         {certifications.map((certification) => (
           <div className="col-md-6 mb-4" key={certification.name}>
             <div className="card">
+            <img src={certification.image} className="card-img-top"  alt={certification.name} />
               <div className="card-body">
                 <h5 className="card-title">{certification.name}</h5>
                 <p className="card-text">
